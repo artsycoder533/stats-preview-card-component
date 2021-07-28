@@ -243,10 +243,32 @@ span {
     }
 
     .text-container {
-        padding: 6rem;
+        padding: 6rem 8.2rem 6rem 6rem;
+        justify-content: space-between;
+    }
+
+    .para-container {
+    }
+
+    .para-container h1 {
+        font-size: 2.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .para-container p {
+        font-size: 1rem;
+        
     }
 
     .stats-container {
-        background: blue;
+        align-items: flex-end;
+    }
+
+    .stats-container h2 {
+        font-size: 2rem;
+    }
+
+    .stats-container p {
+        font-size: 1rem;
     }
 }
