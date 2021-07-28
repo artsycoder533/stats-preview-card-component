@@ -12,23 +12,29 @@
 </head>
 <body>
 
-  <main>
+  
     <!-- outer containter -->
-    <section class="card-container">
-      <article class="card">
+ 
+  <div class="container">
+    <div class="card">
         <!-- image container -->
         <div class="img-container">
           <!-- image -->
+          <picture>
+            <source media="(max-width: 768px>" srcset="./images/image-header-mobile.jpg">
+            <source media="(min-width: 769px>" srcset="./images/image-header-desktop.jpg">
             <img src="./images/image-header-mobile.jpg" 
             alt="women sitting at table collaborating" 
             class="img">
+          </picture>
+            
         </div>
         <!-- end of image container -->
         <!-- text container -->
         <div class="text-container">
           <!-- paragraph -->
           <div class="para-container">
-            <h1>Get insights that help your business grow.</h1>
+            <h1 class="heading">Get <span>insights</span>  that help your business grow.</h1>
             <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
             experience, and overall efficiency.</p>
           </div>
@@ -37,19 +43,19 @@
           <div class="stats-container">
             <!-- single stat -->
             <div class="stat1">
-              <h2>10k+</h2>
+              <h2 class="heading">10k+</h2>
               <p>companies</p>
             </div>
             <!-- end of single stat -->
             <!-- single stat -->
             <div class="stat2">
-              <h2>314</h2>
+              <h2 class="heading">314</h2>
               <p>templates</p>
             </div>
             <!-- end of single stat -->
             <!-- single stat -->
             <div class="stat3">
-              <h2>12m+</h2>
+              <h2 class="heading">12M+</h2>
               <p>queries</p>
             </div>
             <!-- end of single stat -->
@@ -57,15 +63,8 @@
           <!-- end of stats container -->
         </div>
         <!-- end of text container -->
-      </article>
+    </div>
       <!-- end of card -->
-    </section>
-    <!-- end of card container -->
-  </main>
-  <!-- footer -->
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Natasha</a>.
-  </footer>
+  </div>
 </body>
 </html>
