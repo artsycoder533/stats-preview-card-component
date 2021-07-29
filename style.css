@@ -245,7 +245,7 @@ span {
 @media screen and (min-width: 1200px){
     .card {
         max-width: 1000px;
-        height: 50vh;
+        height: 65vh;
     }
 
     .text-container {
