@@ -244,23 +244,23 @@ span {
     /* LAPTOP/SMALL DESKTOP */
 @media screen and (min-width: 1200px){
     .card {
-        max-width: 1440px;
-        height: 55vh;
+        max-width: 1000px;
+        height: 50vh;
     }
 
     .text-container {
         justify-content: space-between;
-        padding: 5rem 5rem 5rem 5rem;
+        padding: 4rem;
     }
 
     .para-container h1 {
-        font-size: 2.1rem;
+        font-size: 1.9rem;
         padding-bottom: 1rem;
     }
 
     .para-container p {
-        font-size: 0.9rem;
-        padding-right: 1rem;
+        font-size: 0.8rem;
+        padding-right: 0.8rem;
     }
 
     .stats-container {
@@ -268,17 +268,17 @@ span {
     }
 
     .stats-container h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding-top: 0;
     }
 
     .stats-container p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
 /* LARGE DISPLAYS */
-@media screen and (min-width: 1400px){
+/* @media screen and (min-width: 1400px){
     .text-container {
         padding: 6rem 5rem 6rem 6rem;
     }
@@ -300,4 +300,4 @@ span {
     .stats-container {
         width: 80%
     }
-}
+} */
