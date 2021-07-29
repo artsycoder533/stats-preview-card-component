@@ -245,7 +245,7 @@ span {
 @media screen and (min-width: 1200px){
     .card {
         max-width: 1440px;
-        height: 50vh;
+        height: 55vh;
     }
 
     .text-container {
@@ -254,12 +254,12 @@ span {
     }
 
     .para-container h1 {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         padding-bottom: 1rem;
     }
 
     .para-container p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-right: 1rem;
     }
 
@@ -268,12 +268,12 @@ span {
     }
 
     .stats-container h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-top: 0;
     }
 
     .stats-container p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
